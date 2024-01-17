@@ -1,4 +1,10 @@
 /* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -25,6 +31,7 @@ a {
 }
 
 button {
+  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
 
@@ -32,4 +39,53 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-1 {
+  background-color: red;
+  margin-right: 40px;
+}
+
+.btn-1:hover {
+  background-color: #e66565;
+}
+
+.btn-2 {
+  background-color: blue;
+}
+
+.btn-2:hover {
+  background-color: #6c8cff;
+}
+
+.button-list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.go-back {
+  margin-left: 40px;
+  padding: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.go-back:hover {
+  background-color: #808080;
 }
