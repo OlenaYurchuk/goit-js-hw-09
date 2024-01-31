@@ -80,7 +80,6 @@ const markup = images.map(({preview, original, description}) =>
 gallery.insertAdjacentHTML('beforeend', markup);
 
 const lightbox = new SimpleLightbox('.gallery a', {
-    caption: true,
     captionsData: 'alt',
     captionDelay: 250,
 });
